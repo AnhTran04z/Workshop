@@ -74,7 +74,7 @@ Thông tin trong log bao gồm:
 
 #### Minh chứng Recent Invocations của Lambda
 
-![CloudWatch Lambda Recent Invocations](/images/5.12-CloudWatch/11_02_CloudWatch_Lambda_Recent_Invocations.png)
+![CloudWatch Lambda Recent Invocations](/images/5-Workshop/5.12-CloudWatch/11_02_CloudWatch_Lambda_Recent_Invocations.png)
 
 Hình trên thể hiện phần **CloudWatch Logs** trong tab Monitor của Lambda `RoughLifeRoomApi`. Bảng **Recent invocations** hiển thị các lần Lambda được gọi gần nhất.
 
