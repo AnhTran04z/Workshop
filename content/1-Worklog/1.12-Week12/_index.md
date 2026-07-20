@@ -18,7 +18,7 @@ pre: " 1.12. "
 
 ## Tasks to be completed this week:
 
-| Day | Task | Start Date | Completion Date | References |
+| Day | Task | Start Date | End Date | References |
 |---|---|---:|---:|---|
 | Mon | - Compile all worklogs from Week 1 to Week 12.<br>- Review the content written for each week.<br>- Ensure that objectives, tasks, achieved results, and references are presented consistently. | 06/07/2026 | 06/07/2026 | Worklog documents |
 | Tue | - Compile AWS Lab and project evidence.<br>- Recheck screenshots of AWS practice steps such as IAM, VPC, EC2, S3, CloudFormation, CloudWatch, Budgets, and GameLift.<br>- Organize evidence by section so it can be easily added to the report. | 07/07/2026 | 07/07/2026 | AWS Console, AWS Lab documents |
