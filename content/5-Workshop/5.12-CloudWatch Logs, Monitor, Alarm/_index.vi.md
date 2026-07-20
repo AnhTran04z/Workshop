@@ -52,7 +52,7 @@ Luồng giám sát tổng quát:
 
 #### Minh chứng CloudWatch Log Group
 
-![CloudWatch Log Group](/images/5-Workshop/5.12-CloudWatch Logs, Monitor, Alarm/11_01_CloudWatch_LogGroup.png)
+![CloudWatch Log Group](/images/5-Workshop/5.12-CloudWatch/11_01_CloudWatch_LogGroup.png)
 
 Hình trên thể hiện log group của Lambda `RoughLifeRoomApi` trong Amazon CloudWatch. Log group có dạng:
 
@@ -74,7 +74,7 @@ Thông tin trong log bao gồm:
 
 #### Minh chứng Recent Invocations của Lambda
 
-![CloudWatch Lambda Recent Invocations](/images/5-Workshop/5.12-CloudWatch Logs, Monitor, Alarm/11_02_CloudWatch_Lambda_Recent_Invocations.png)
+![CloudWatch Lambda Recent Invocations](/images/5.12-CloudWatch/11_02_CloudWatch_Lambda_Recent_Invocations.png)
 
 Hình trên thể hiện phần **CloudWatch Logs** trong tab Monitor của Lambda `RoughLifeRoomApi`. Bảng **Recent invocations** hiển thị các lần Lambda được gọi gần nhất.
 
@@ -94,7 +94,7 @@ Ngoài ra, CloudWatch cũng hiển thị bảng **Most expensive invocations in 
 
 #### Minh chứng Log Events chi tiết
 
-![CloudWatch Log Events](/images/5-Workshop/5.12-CloudWatch Logs, Monitor, Alarm/11_03_CloudWatch_LogEvents.png)
+![CloudWatch Log Events](/images/5-Workshop/5.12-CloudWatch/11_03_CloudWatch_LogEvents.png)
 
 Hình trên thể hiện log events chi tiết trong một log stream của Lambda. Các dòng log gồm:
 
@@ -108,7 +108,7 @@ Trong minh chứng, Lambda có duration khoảng vài trăm milliseconds và s�
 
 #### Tạo CloudWatch Alarm cho Lambda Error
 
-![Create Lambda Error Alarm](/images/5-Workshop/5.12-CloudWatch Logs, Monitor, Alarm/11_04_CloudWatch_Create_Lambda_Error_Alarm.png)
+![Create Lambda Error Alarm](/images/5-Workshop/5.12-CloudWatch/11_04_CloudWatch_Create_Lambda_Error_Alarm.png)
 
 Hình trên thể hiện quá trình tạo alarm cho metric `Errors` của Lambda `RoughLifeRoomApi`.
 
@@ -130,7 +130,7 @@ Với cấu hình này, nếu Lambda phát sinh từ 1 lỗi trở lên trong v�
 
 #### Minh chứng Alarm đã được tạo
 
-![CloudWatch Alarm Created](/images/5-Workshop/5.12-CloudWatch Logs, Monitor, Alarm/11_05_CloudWatch_Alarm_Created.png)
+![CloudWatch Alarm Created](/images/5-Workshop/5.12-CloudWatch/11_05_CloudWatch_Alarm_Created.png)
 
 Hình trên thể hiện alarm `RoughLifeRoomApi-Lambda-Error-Alarm` đã được tạo thành công trong CloudWatch Alarms.
 
