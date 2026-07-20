@@ -18,7 +18,7 @@ pre: " 1.11. "
 
 ## Tasks to be completed this week:
 
-| Day | Task | Start Date | Completion Date | References |
+| Day | Task | Start Date | End Date | References |
 |---|---|---:|---:|---|
 | Mon | - Review the entire RoughLife project after completing the main gameplay systems.<br>- Check important systems including Player, Boss, Weapon, UI, Lobby, and Boss Room.<br>- Identify remaining issues before entering the final polishing stage. | 29/06/2026 | 29/06/2026 | Project source code, Unity Documentation |
 | Tue | - Complete and synchronize the **death particle** effect in the online environment.<br>- Test the effect when a Player is downed on both Host and Client.<br>- Ensure that the death effect is not only displayed locally but also synchronized correctly for other players.<br>- Fix issues where particles do not appear or appear at the wrong position when the character dies. | 30/06/2026 | 30/06/2026 | Unity Netcode for GameObjects, Project source code |
